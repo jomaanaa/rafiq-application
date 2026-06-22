@@ -18,6 +18,9 @@ Note: This project is primarily designed for use in Egypt and may not be fully s
 - PHP (backend API)
 - PostgreSQL (pgAdmin)
 
+## Related Repositories
+- [Rafiq Backend (PHP API & Database)](https://github.com/jomaanaa/rafiq-backend)
+
 ## Getting Started
 
 **Prerequisites**
