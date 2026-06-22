@@ -2,9 +2,9 @@
 
 A cross-platform mobile application connecting people with disabilities and elderly users to verified caregivers, doctors, interpreters and accessible transport.
 
-Note: This project is primarily designed for use in Egypt and may not be fully suitable for other regions due to localization, service availability and infrastructure differences.
+> **Note:** This project is primarily designed for use in Egypt and may not be fully suitable for other regions due to localization, service availability and infrastructure differences.
 
-**Features**
+## Features
 
 - User registration and login
 - Personalized disability profiles
@@ -12,41 +12,41 @@ Note: This project is primarily designed for use in Egypt and may not be fully s
 - Community-driven accessibility map with user reviews
 - Ratings and feedback system
 
-**Tech Stack**
+## Tech Stack
 
 - Flutter / Dart
 - PHP (backend API)
 - PostgreSQL (pgAdmin)
 
 ## Related Repositories
+
 - [Rafiq Backend (PHP API & Database)](https://github.com/jomaanaa/rafiq-backend)
 
 ## Getting Started
 
-**Prerequisites**
+### Prerequisites
 
 - Flutter SDK installed
 - PostgreSQL installed and running
 - A PHP server (e.g. XAMPP or WAMP) to host the backend API files
 
-**Setup**
+### Setup
 
-Step 1: Clone the repository
+**Step 1:** Clone the repository
 
-```git clone https://github.com/jomaanaa/rafiq-application.git```
+`git clone https://github.com/jomaanaa/rafiq-application.git`
 
-Step 2: Install dependencies
+**Step 2:** Install dependencies
 
-```flutter pub get```
+`flutter pub get`
 
-Step 3: Set up the database — import the provided SQL file into PostgreSQL to create all required tables and schema
+**Step 3:** Set up the database — import the provided SQL file into PostgreSQL to create all required tables and schema
 
-```psql -U postgres -d rafiq -f database/rafiq_db.sql```
+`psql -U postgres -d rafiq -f database/rafiq_db.sql`
 
-Step 4: Host the PHP files on your local PHP server and update the API base URL in the app to point to your server address, then run the app
+**Step 4:** Host the PHP files on your local PHP server and update the API base URL in the app to point to your server address, then run the app
 
-```flutter run```
-
-**Contributors**
+`flutter run`
+## Contributors
 
 Jomana Ahmed Mostafa
