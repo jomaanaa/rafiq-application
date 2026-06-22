@@ -25,9 +25,9 @@ Note: This project is primarily designed for use in Egypt and may not be fully s
 
 **Prerequisites**
 
-Flutter SDK installed
-PostgreSQL installed and running
-A PHP server (e.g. XAMPP or WAMP) to host the backend API files
+- Flutter SDK installed
+- PostgreSQL installed and running
+- A PHP server (e.g. XAMPP or WAMP) to host the backend API files
 
 **Setup**
 
@@ -46,3 +46,7 @@ Step 3: Set up the database — import the provided SQL file into PostgreSQL to 
 Step 4: Host the PHP files on your local PHP server and update the API base URL in the app to point to your server address, then run the app
 
 ```flutter run```
+
+**Contributors**
+
+Jomana Ahmed Mostafa
